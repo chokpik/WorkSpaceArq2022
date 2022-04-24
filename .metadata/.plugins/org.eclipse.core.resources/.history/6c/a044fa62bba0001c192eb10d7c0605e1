@@ -1,0 +1,6 @@
+package creacionales.singleton.model;
+
+public class insumos {
+	private Insumos instancia = null;
+	private insumos() {} 
+}

@@ -1,0 +1,33 @@
+package creacionales.singleton.model;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Insumos insum = Insumos.getInstancia();
+		int opt = 0, cant;
+		do
+			{
+			System.out.println("Ingrese su opcion");
+			System.out.println("1. agregar stock");
+			System.out.println("2. ver stock");
+			System.out.println("3. Salir");
+			switch (opt) {
+			case 1: 
+				System.out.println("Ingrese el numero de stock a cambiar");
+				break;
+			case 2: 
+				System.out.println("Ver stock");
+				break;
+			case 3: 
+				System.out.println("gracias hasta luego");
+				break;
+			
+			default:
+				System.out.println("Ingrese una opcion correcta");
+			}
+			
+		}while(opt != 3);
+	}
+}

@@ -1,0 +1,38 @@
+package practica2;
+
+
+public class Contacto {
+	private static Contacto instancia = null;
+	private Contacto() {}
+    private String nombre;
+    private int telefono;
+    
+    public String getNombre() {
+		return nombre;
+	}
+    
+    public int getTelefono() {
+		return telefono;
+	}
+    
+    public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+    
+    public void setTelefono(int telefono) {
+		this.telefono = telefono;
+	}
+
+    public static Contacto getInstancia() {
+        if(instancia == null){
+            instancia = new Contacto();
+            System.out.println("Creando instancia");
+        }else {
+            System.out.println("=== Retornando instancia ya creada ===");
+        }
+        return instancia;
+    }
+
+ 
+    
+}

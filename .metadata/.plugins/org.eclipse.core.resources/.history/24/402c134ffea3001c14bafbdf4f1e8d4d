@@ -1,0 +1,18 @@
+package patrones.creacionales.abstractfactory;
+
+public class ConexionProductor {
+
+	public static IConexionAbstractFactory getFactory(String tipoFabrica)
+	{
+		if(tipoFabrica.equalsIgnoreCase("DB"))
+		{
+			return (IConexionAbstractFactory) new ConexionDBFactory();
+		}else if (tipoFabrica.equalsIgnoreCase("SERVICIOWB"))
+		{
+			return (IConexionAbstractFactory) new ConexionServWebFactory();
+		}
+		
+		return null;
+	}
+
+}

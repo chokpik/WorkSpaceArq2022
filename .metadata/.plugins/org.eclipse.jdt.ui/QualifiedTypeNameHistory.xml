@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="creacionales.singleton.model.Main"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesDB.impl.ConexionGenerica"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesDB.impl.ConexionMySQL"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesDB.impl.ConexionVacia"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesDB.impl.ConexionOracle"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesSrvWeb.impl.ConexionServicioWebGenericaImpl"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesSrvWeb.impl.ConexionServicioWebSOAPImpl"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesSrvWeb.impl.ConexionServicioWebRESTImpl"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.ConexionDBFactory"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.ConexionServWebFactory"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesDB.IconexionDB"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.IConexionAbstractFactory"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.ConexionProductor"/>
+    <fullyQualifiedTypeName name="patrones.creacionales.abstractfactory.factoryConexionesSrvWeb.IConexionServicioWeb"/>
+</qualifiedTypeNameHistroy>

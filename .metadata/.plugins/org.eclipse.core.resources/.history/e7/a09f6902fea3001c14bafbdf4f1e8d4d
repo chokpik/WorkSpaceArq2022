@@ -1,0 +1,9 @@
+package patrones.creacionales.abstractfactory.factoryConexionesDB.impl;
+
+public class ConexionVacia {
+
+	public ConexionVacia() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

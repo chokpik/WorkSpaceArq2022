@@ -1,0 +1,9 @@
+package patrones.creacionales.abstractfactory;
+
+public class ConexionDBFactory {
+
+	public ConexionDBFactory() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

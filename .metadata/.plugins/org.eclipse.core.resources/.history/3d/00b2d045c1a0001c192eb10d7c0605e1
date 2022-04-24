@@ -1,0 +1,47 @@
+package practica2;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Agenda de contactos
+		Scanner sc = new Scanner(System.in);
+		Contacto objContacto = Contacto.getInstancia();
+		ArrayList<Contacto> contactos = new ArrayList<Contacto>();
+		int opt = 0;
+		do
+		{
+			System.out.println("Seleccione una opcion");
+			System.out.println("1. agregar contacto");
+			System.out.println("2. ver agenda");
+			System.out.println("3. salir");
+			opt = sc.nextInt();
+			switch (opt) {
+			case 1:
+				System.out.println("Ingrese nombre");
+				String nombre = sc.next();
+				System.out.println("Ingrese numero");
+				int numero = sc.nextInt();
+				contactos.add(objContacto);
+				break;
+			case 2:
+				objContacto.printContactos(contactos);
+				
+				break;
+			case 3:
+				System.out.println("Gracias hasta luego");
+				break;
+	
+
+			default:
+				System.out.println("Ingrese una opcion correcta");
+				break;
+			}
+		}while(opt != 3);
+		
+		
+	}
+
+}

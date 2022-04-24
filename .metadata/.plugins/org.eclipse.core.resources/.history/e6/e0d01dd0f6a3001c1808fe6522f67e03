@@ -1,0 +1,5 @@
+package patrones.creacionales.abstractfactory.factoryConexionesSrvWeb;
+
+public interface IConexionServicioWeb {
+
+}

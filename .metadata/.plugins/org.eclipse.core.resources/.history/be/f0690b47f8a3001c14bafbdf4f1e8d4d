@@ -1,0 +1,9 @@
+package patrones.creacionales.abstractfactory;
+
+import patrones.creacionales.abstractfactory.factoryConexionesDB.IconexionDB;
+import patrones.creacionales.abstractfactory.factoryConexionesSrvWeb.IConexionServicioWeb;
+
+public interface ConexionAbstractFactory {
+	IconexionDB getConexionDBFactory(String motor);
+	IConexionServicioWeb getConexionServWebFactory(String tipo);
+}

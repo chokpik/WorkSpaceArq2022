@@ -1,0 +1,9 @@
+package patrones.creacionales.abstractfactory;
+
+public class ConexionServWebFactory {
+
+	public ConexionServWebFactory() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,20 @@
+package patrones.creacionales.abstractfactory;
+
+import patrones.creacionales.abstractfactory.factoryConexionesDB.IconexionDB;
+
+public class Aplicacion {
+
+	public Aplicacion() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+
+		IConexionAbstractFactory fabricaDB = ConexionProductor.getFactory("DB");
+		IconexionDB motorMysql = fabricaDB.getConexionDBFactory("MYSQL");
+		motorMysql.conectar();
+		motorMysql.desconectar();
+
+	}
+
+}

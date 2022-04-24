@@ -1,0 +1,38 @@
+package patrones.creacionales.singleton.model;
+
+public class ConexionBD {
+    /*Declaración del patrón
+    Debe ser privada y static*/
+
+    private static ConexionBD instancia = null;
+
+    /* Construcción vacío de la clase
+     * Private
+     * Se oculta el constructor, de esta forma solo se puede obtener 
+     * una instancia de ... utilizando la instancia */
+    
+    private ConexionBD(){}
+
+    public static ConexionBD getInstancia() {
+        if(instancia == null){
+            instancia = new ConexionBD();
+            System.out.println("Creando instancia");
+        }else {
+            System.out.println("=== Retornando instancia ya creada ===");
+        }
+        return instancia;
+    }
+
+    //Método de prueba para conectar 
+
+    public void conectar(){
+        System.out.println("Realizanco conexión a la BD");
+    }
+
+    //Método de prueba para desconectar
+
+    public void desconectar(){
+        System.out.println("Desconectando");
+    }
+}
+
