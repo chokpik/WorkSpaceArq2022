@@ -3,8 +3,6 @@ package patrones.creacionales.prototype;
 
 import patrones.creacionales.prototype.model.CuentaAhorroImpl;
 
-//prueba
-
 public class Aplicacion {
     public Aplicacion(){}
 
